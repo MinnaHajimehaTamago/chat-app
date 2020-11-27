@@ -1,3 +1,48 @@
+.wrapper {
+  display: flex;
+}
+
+.side-bar {
+  height: 100vh;
+  width: 300px;
+  background-color: #253141;
+}
+
+.side-header {
+  height: 100px;
+  background-color: #253141;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.user-name a{
+  color: #fafafa;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.create-room {
+  font-size: 10px;
+}
+
+.create-room a{
+  color: deepskyblue;
+  text-decoration: none;
+  border: 1px solid lightblue;
+  padding: 14px;
+}
+
+.rooms {
+  height: calc(100vh - 100px);
+  background-color: #2f3e51;
+  padding: 0 20px;
+  overflow: scroll;
+}
+
+.room {
   padding: 20px 0 40px;
 }
 
